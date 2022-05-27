@@ -1,0 +1,15 @@
+﻿@model IQueryable<Customer>
+
+@{
+}
+
+@foreach( var customer in Model )
+{
+    <div>
+        <h3>@customer.FirstName</h3>
+        <h4>@customer.FullName</h4>
+        <a href="mailto:@customer.EmailAddres">
+            @customer.EmailAddres
+        </a>
+    </div>
+}

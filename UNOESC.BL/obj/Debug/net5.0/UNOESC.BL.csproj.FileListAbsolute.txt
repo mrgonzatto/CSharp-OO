@@ -1,0 +1,12 @@
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\bin\Debug\net5.0\UNOESC.BL.deps.json
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\bin\Debug\net5.0\UNOESC.BL.dll
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\bin\Debug\net5.0\UNOESC.BL.pdb
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\net5.0\UNOESC.BL.csproj.AssemblyReference.cache
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\net5.0\UNOESC.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\net5.0\UNOESC.BL.AssemblyInfoInputs.cache
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\net5.0\UNOESC.BL.AssemblyInfo.cs
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\net5.0\UNOESC.BL.csproj.CoreCompileInputs.cache
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\net5.0\UNOESC.BL.dll
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\net5.0\refint\UNOESC.BL.dll
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\net5.0\UNOESC.BL.pdb
+D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\net5.0\ref\UNOESC.BL.dll
