@@ -14,5 +14,21 @@ namespace UNOESCWeb.Models.EF
         }
 
         public IQueryable<Customer> Customers => context.Customers;
+
+        public void CreateCustomer(Customer c)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void DeleteCustomer(Customer c)
+        {
+            context.Customers.Remove(c);
+            context.SaveChanges();
+        }
+
+        public void SaveCustomer(Customer c)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

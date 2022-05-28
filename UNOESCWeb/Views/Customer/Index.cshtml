@@ -11,5 +11,11 @@
         <a href="mailto:@customer.EmailAddres">
             @customer.EmailAddres
         </a>
+
+        <form asp-action="delete" asp-controller="customer">
+            <input type="hidden" name="CustomerId" id="CustomerId" value="@customer.CustomerId" />
+            <input type="submit" value="Excluir" />
+        </form>
+
     </div>
 }
