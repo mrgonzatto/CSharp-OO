@@ -29,7 +29,5 @@ namespace UNOESCWeb.Controllers
 
             return View("Index", repository.Customers);
         }
-
-
     }
 }
