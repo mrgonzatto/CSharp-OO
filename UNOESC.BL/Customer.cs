@@ -1,5 +1,7 @@
 ﻿
 
+using System.Collections.Generic;
+
 namespace UNOESC.BL
 {
     public class Customer
@@ -9,15 +11,35 @@ namespace UNOESC.BL
         // Snippet construtor = ctor + tab
         
         // O construtor sem parâmetros nós chamamos de default
-        public Customer()
-        {
-
+        public Customer() : this(0)
+        {            
         }
 
         public Customer(int customerId)
         {
-            CustomerId = customerId;
+            CustomerId = customerId;            
         }
+
+        public Customer(int customerId, string firstName)
+        {
+            CustomerId = customerId;
+            FirstName = firstName;            
+        }
+
+        public Customer(
+            int customerId, 
+            string emailAddres, 
+            string firstName, 
+            string lastName, 
+            IEnumerable<CustomerAddress> customerAddresses
+        ) : this(customerId, emailAddres)
+        {
+            FirstName = firstName;            
+            LastName = lastName;
+            CustomerAddresses = customerAddresses;
+        }
+
+
 
         //-----------------------------
 
@@ -33,7 +55,7 @@ namespace UNOESC.BL
 
         // Propriedade auto-implementada
         public string EmailAddres { get; set; }
-        public string FirstName { get; set; }
+        public string FirstName { get; set; }        
 
         // Propriedade do C#
         private string _lastName;        
@@ -59,12 +81,13 @@ namespace UNOESC.BL
                 }
                 return fullname;
             }
-        }
+        }        
+                
+        
+        public IEnumerable<CustomerAddress> CustomerAddresses { get; set; }
+            = new List<CustomerAddress>();
         // -----------------
-
-
-        //------------------
-
+        
         /// <summary>
         /// Validação dos dados do cliente
         /// </summary>

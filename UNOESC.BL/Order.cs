@@ -15,14 +15,16 @@ namespace UNOESC.BL
         //----------------
         public int OrderId { get; private set; }
         public DateTimeOffset OrderDate { get; set; }
-        //----------------
+        
 
         //----------------
+        
         public bool Validate()
         {
             var isValid = true;
-            if( OrderDate == null )
-                isValid = false;
+            
+            if( OrderDate == null ) isValid = false;
+            //if (!ShippingAddress.Validate()) isValid = false;
 
             return isValid;
         }

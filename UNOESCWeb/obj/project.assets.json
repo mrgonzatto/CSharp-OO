@@ -10523,27 +10523,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WIN.000\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\mauri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Unoesc\\EAD\\2022\\PROG_OO\\UNOESC\\UNOESCWeb\\UNOESCWeb.csproj",
+      "projectUniqueName": "D:\\Repositories\\GitHub\\UNOESC\\PROG_OO\\UNOESC\\UNOESCWeb\\UNOESCWeb.csproj",
       "projectName": "UNOESCWeb",
-      "projectPath": "D:\\Unoesc\\EAD\\2022\\PROG_OO\\UNOESC\\UNOESCWeb\\UNOESCWeb.csproj",
-      "packagesPath": "C:\\Users\\WIN.000\\.nuget\\packages\\",
-      "outputPath": "D:\\Unoesc\\EAD\\2022\\PROG_OO\\UNOESC\\UNOESCWeb\\obj\\",
+      "projectPath": "D:\\Repositories\\GitHub\\UNOESC\\PROG_OO\\UNOESC\\UNOESCWeb\\UNOESCWeb.csproj",
+      "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositories\\GitHub\\UNOESC\\PROG_OO\\UNOESC\\UNOESCWeb\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\WIN.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -10556,8 +10549,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Unoesc\\EAD\\2022\\PROG_OO\\UNOESC\\UNOESC.BL\\UNOESC.BL.csproj": {
-              "projectPath": "D:\\Unoesc\\EAD\\2022\\PROG_OO\\UNOESC\\UNOESC.BL\\UNOESC.BL.csproj"
+            "D:\\Repositories\\GitHub\\UNOESC\\PROG_OO\\UNOESC\\UNOESC.BL\\UNOESC.BL.csproj": {
+              "projectPath": "D:\\Repositories\\GitHub\\UNOESC\\PROG_OO\\UNOESC\\UNOESC.BL\\UNOESC.BL.csproj"
             }
           }
         }
@@ -10617,7 +10610,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

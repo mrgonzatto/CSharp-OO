@@ -26,7 +26,6 @@ namespace UNOESC.BL
         public int OrderId { get; set; }
         public Order Order { get; set; }
 
-
         public decimal? PurchasePrice { get; set; }
         public int Quantity { get; set; }
         //-------------------------------

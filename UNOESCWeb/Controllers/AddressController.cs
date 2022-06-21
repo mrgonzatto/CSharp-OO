@@ -10,22 +10,22 @@ using UNOESCWeb.Models;
 
 namespace UNOESCWeb.Controllers
 {
-    public class ProductsController : Controller
+    public class AddressController : Controller
     {
         private readonly UNOESCDbContext _context;
 
-        public ProductsController(UNOESCDbContext context)
+        public AddressController(UNOESCDbContext context)
         {
             _context = context;
         }
 
-        // GET: Products
+        // GET: Address
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Product.ToListAsync());
+            return View(await _context.Addresses.ToListAsync());
         }
 
-        // GET: Products/Details/5
+        // GET: Address/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,39 +33,39 @@ namespace UNOESCWeb.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Product
-                .FirstOrDefaultAsync(m => m.ProductId == id);
-            if (product == null)
+            var address = await _context.Addresses
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (address == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(address);
         }
 
-        // GET: Products/Create
+        // GET: Address/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Products/Create
+        // POST: Address/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CurrentPrice,ProductDescription,ProductId,ProductName")] Product product)
+        public async Task<IActionResult> Create([Bind("Id,Street,District,City,Country,ZipCode")] Address address)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(product);
+                _context.Add(address);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+            return View(address);
         }
 
-        // GET: Products/Edit/5
+        // GET: Address/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -73,22 +73,22 @@ namespace UNOESCWeb.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Product.FindAsync(id);
-            if (product == null)
+            var address = await _context.Addresses.FindAsync(id);
+            if (address == null)
             {
                 return NotFound();
             }
-            return View(product);
+            return View(address);
         }
 
-        // POST: Products/Edit/5
+        // POST: Address/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CurrentPrice,ProductDescription,ProductId,ProductName")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Street,District,City,Country,ZipCode")] Address address)
         {
-            if (id != product.ProductId)
+            if (id != address.Id)
             {
                 return NotFound();
             }
@@ -97,12 +97,12 @@ namespace UNOESCWeb.Controllers
             {
                 try
                 {
-                    _context.Update(product);
+                    _context.Update(address);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductExists(product.ProductId))
+                    if (!AddressExists(address.Id))
                     {
                         return NotFound();
                     }
@@ -113,10 +113,10 @@ namespace UNOESCWeb.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+            return View(address);
         }
 
-        // GET: Products/Delete/5
+        // GET: Address/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -124,30 +124,30 @@ namespace UNOESCWeb.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Product
-                .FirstOrDefaultAsync(m => m.ProductId == id);
-            if (product == null)
+            var address = await _context.Addresses
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (address == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(address);
         }
 
-        // POST: Products/Delete/5
+        // POST: Address/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var product = await _context.Product.FindAsync(id);
-            _context.Product.Remove(product);
+            var address = await _context.Addresses.FindAsync(id);
+            _context.Addresses.Remove(address);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductExists(int id)
+        private bool AddressExists(int id)
         {
-            return _context.Product.Any(e => e.ProductId == id);
+            return _context.Addresses.Any(e => e.Id == id);
         }
     }
 }

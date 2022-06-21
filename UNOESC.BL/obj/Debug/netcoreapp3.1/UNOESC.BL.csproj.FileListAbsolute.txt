@@ -8,3 +8,13 @@ D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.As
 D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.csproj.CoreCompileInputs.cache
 D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.dll
 D:\Unoesc\EAD\2022\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.pdb
+D:\Repositories\GitHub\UNOESC\PROG_OO\UNOESC\UNOESC.BL\bin\Debug\netcoreapp3.1\UNOESC.BL.deps.json
+D:\Repositories\GitHub\UNOESC\PROG_OO\UNOESC\UNOESC.BL\bin\Debug\netcoreapp3.1\UNOESC.BL.dll
+D:\Repositories\GitHub\UNOESC\PROG_OO\UNOESC\UNOESC.BL\bin\Debug\netcoreapp3.1\UNOESC.BL.pdb
+D:\Repositories\GitHub\UNOESC\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.csproj.AssemblyReference.cache
+D:\Repositories\GitHub\UNOESC\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\GitHub\UNOESC\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.AssemblyInfoInputs.cache
+D:\Repositories\GitHub\UNOESC\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.AssemblyInfo.cs
+D:\Repositories\GitHub\UNOESC\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.csproj.CoreCompileInputs.cache
+D:\Repositories\GitHub\UNOESC\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.dll
+D:\Repositories\GitHub\UNOESC\PROG_OO\UNOESC\UNOESC.BL\obj\Debug\netcoreapp3.1\UNOESC.BL.pdb
